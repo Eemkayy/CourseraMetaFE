@@ -20,7 +20,7 @@ h2 {
     display: block;
 }
 
-h2 span{
+h2>span{
     color: #FA9F42;
     font-size: 0.75em;
 }
