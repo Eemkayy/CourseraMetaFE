@@ -1,0 +1,16 @@
+We can use if/elses for conditionals but also switches to make it more visually appealing
+
+e.g.
+
+var place = 'fourth'
+
+switch(place){
+    case 'first':
+        ...
+    case 'second':
+        ...
+
+    .
+    .
+    .
+}
