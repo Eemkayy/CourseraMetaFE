@@ -1,0 +1,1 @@
+There's FP and theres OOP (functional prog and obj oriented prog)
