@@ -1,0 +1,17 @@
+destructuring: copying an item, which then becomes independent of the original
+
+let {PI} = Math;
+PI; //3.14...
+
+you can only destructure something that already exist on an object
+
+let{pi} = Math;
+pi; //undefined
+
+PI === Math.PI; //true
+
+PI = 1;
+
+PI === Math.PI //false;
+
+No connection between the desourced/destructured variable and the source obj
