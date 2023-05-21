@@ -1,0 +1,24 @@
+Traditional:
+Receive reqs
+write code
+test
+
+TDD
+receive reqs
+write failing test
+write code to make test pass
+code passes test
+improve workable code
+
+We have to write code in a TDD way, first we write the test ITSELF
+
+e.g.
+
+test('returns true if statusOfKeys exists', function() {
+    expect(statusOfKeys).toBeDefined()
+})
+
+fails, no statusofkeys defined
+
+source: function statusOfKeys(){}
+test confirms it exists, therefore passes. This looks like reverse engineering.

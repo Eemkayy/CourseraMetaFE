@@ -1,0 +1,22 @@
+Node JS settings:
+CML
+Desktop app
+back-end
+
+
+Back-end: php, python, #, ruby, java
+after Node.js, javascript can be used on back-end, therefore, JS is fullstack
+
+NPM -node package manager
+Lets devs use libraries and framework as node.js managers
+preinstalled or installed
+
+npm init {
+    "name": "my-awesome-package",
+    "version" : "1.0.0"
+}
+
+package.json: file that's created after you run the NPM init command
+holds all the instructions on all the node modules.
+NPM repo about 11 million modules 
+react, webpack, boostrap, angular-core

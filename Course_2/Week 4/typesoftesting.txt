@@ -1,0 +1,30 @@
+Testing: confirming that software works as specified in the requirements
+Testing software: ensuring that a specific piece of software works with other aprts of your system
+
+Reasons to test code:
+ - Doesn't break existing functionality
+ - Bug-free
+ - Satisfies requirements as given
+
+3 ways to test:
+end-to-end,integration and unit
+
+e2e testing:
+imitates how a user might interact with your app (open web app in a web browser and interact w it
+like a user might)
+slowest and time consuming
+
+integration:
+how differents parts of your application work together
+faster and cheaper
+
+unit testing:
+testing the smallest units of the source code in isolation (e.g. functions)
+self-contained,faster to run, easier to write
+
+
+Testing pyramid:
+
+Unit tests
+Integration tests
+e2e tests

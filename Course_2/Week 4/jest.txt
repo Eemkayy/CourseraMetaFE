@@ -1,0 +1,18 @@
+//jasmine, mocha, karma and qUnit
+
+/**
+ * Used for testing code
+ * JS-based
+ * JS and React code, used to test Babel, Typescript, Angular, Vue...
+ * 
+ * Used for code coverage (means that an x amount of code is test covered, some expectations tested for each line of code)
+ * Higher CC, less unidentified bugs
+ * 
+ */
+
+ Mocking allows to separate the code from related dependencies during testing
+ e.g. testing front end functionality from client side while it thinks its from server side
+
+ Mock allows FE to finish their features independently from back-end
+ 
+ Snapshot testing: used by web devs to verify that there are no regressions in the Dom
