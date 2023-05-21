@@ -1,0 +1,6 @@
+modules: standalone units of code that you can reuse them again and again. Add modules, remove
+and reuse.
+
+commonJS, specifies how modules should work outside of the environment
+
+ES6 modulesÑ

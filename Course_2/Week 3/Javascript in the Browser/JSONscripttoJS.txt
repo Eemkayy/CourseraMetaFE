@@ -1,0 +1,12 @@
+const jsonStr = '{"greeting":"hello"}'
+const aPlainObj = JSON.parse(jsonStr);
+
+aPlainObj.greeting = 'hi' //word hi is outputed, structure has been updated
+
+//reverse conversion can also be done
+
+const data = {firstname: "John", lastname: "Doe", greeting: "Hello"}
+
+JSON.stringify(data)
+
+returns what line 1 has after = 

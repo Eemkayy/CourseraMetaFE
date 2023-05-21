@@ -1,0 +1,22 @@
+liking button or clicking - event
+
+"Add to cart" event -> maybe we want to add 1 item to the shopping cart, click again, 2
+function that captures events - event handler
+
+go to example.com
+to listen to an event, we can add an EventListener
+
+const target = document.querySelector('body')
+function handleClick(){
+    console.log('Clicked the body')
+}
+
+
+target.addEventListener('click',handleClick)
+
+function handleClick2(){
+    console.log('Clicked the heading')
+}
+
+we open the elements panel, get the h1 element and edit as HTML element
+add an attr that goes onClick='handleClick2" next to h1

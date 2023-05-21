@@ -1,0 +1,15 @@
+if we type document in the console,
+returns the webpage stored in the browser's memory, or DOM
+
+QLselector method:
+
+document.querySelector('p'), returns the first p element, and we can see the first paragraph
+
+document.querySelector('a'), returns the first anchor element
+
+document.selectorAll('p'), returns all the tags w p
+
+document.getElementById('heading), returns item of heading
+
+document.getElementsByClassName('txt')
+returns a collection of classes labeled as txt

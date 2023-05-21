@@ -1,0 +1,30 @@
+DOM allows you to change properties of something on a webpage
+allows to manipulate and update pages
+
+
+DOM tree structure: HTML file is mapped out like a tree structure with nested 
+objects for different parts of the page
+
+A browser buolds a DOM, or model, for every webpage it downloads as a JS object
+
+Elements tab:
+- Used to interact with the DOM
+- Access through the devtools in the browser window
+- Provides interactivitiy via the GUI
+
+Javascript:
+- Used to interact with the DOM
+- Access JavaScript via the Console tab
+- Access the console panel using the escape key 
+
+e.g.
+document,body,innerText = "Hello"
+
+//in a new page, you can do this:
+const h2 = document.createElement('h2') //passing the tag names as a javascript string
+//need to attach it to the DOM structure
+h2.innerText = "This is an h2 heading"
+h2.setAttribute('id','sub-heading')
+h2.setAttribute('class', 'secondary')
+if we write h2, it will output everything as in HTML code
+document.body.appendChild(h2) //this would display to the body of the text
