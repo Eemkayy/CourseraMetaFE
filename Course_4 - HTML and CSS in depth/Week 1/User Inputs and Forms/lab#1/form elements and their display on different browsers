@@ -1,0 +1,25 @@
+Input:
+Looks different in different browsers (corner and heights, widths...)
+
+Checkbox:
+Displays differently in diff browsers as well.
+
+How to fix:
+CSS
+defining CSS rules can keep it consistent such as:
+
+input{   (e.g. input[type=text]{...Apply CSS properties such as font, width, height...})
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+select{
+    width:100%;
+}
+
+button{
+    width:100%;
+}

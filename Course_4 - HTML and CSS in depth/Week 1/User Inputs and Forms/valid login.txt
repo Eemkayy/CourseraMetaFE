@@ -1,0 +1,15 @@
+<form method="post">
+    <label for="user">Username:</label><br>
+    <input type="text" id="user" name="user" required minlength="3" maxlength="12"><br>
+
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" name="pass" required minlength="5"<br><br>
+    <input type="submit" value="Submit">
+
+    </form>
+
+    <style>
+        input:focus:invalid {
+            border:2px solid red;
+        }
+    </style>

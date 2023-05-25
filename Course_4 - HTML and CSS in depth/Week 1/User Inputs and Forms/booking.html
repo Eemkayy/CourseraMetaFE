@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <!--... everything written and all that-->
+
+        <main>
+            <h1>Book a Table</h1>
+            <form method="POST">
+                <fieldset id="size"> <!--defines a group for radio buttons-->
+                    <label><input type="radio" value="2" name="size">2-person table</label> <!--labeling makes it easier for mobile users to interact-->
+                    <label><input type="radio" value="4" name="size" checked>4-person table</label>
+                    <label><input type="radio" value="6" name="size">6-person table</label>
+                     <!--checked means: selects the option by default-->
+                    
+
+                </fieldset>
+                <fieldset id="location">
+                    <label><input type="radio" value="indoors" name="location" checked> Indoors</label>
+                    <label><input type="radio" value="outdoors" name="location"> Outdoors</label>
+                    
+                    
+                </fieldset>
+                <button type="submit">Book table</button>
+            </form>
+        </main>
+
+    </body>
+</html>

@@ -1,0 +1,26 @@
+Log-in form
+<form method="get">
+    <label for="username">Username:<label><br>
+    <input type="text" id="username" name="username" value="admin"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="password"><br>
+    <input type="submit" value="Log In">
+</form>
+
+Bad because:
+1. URL length limited by browser
+2. URL length limited by web server
+3. Security threats
+
+
+<form method="post">
+    <label for="username">Username:<label><br>
+    <input type="text" id="username" name="username" value="admin"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="password"><br>
+    <input type="submit" value="Log In">
+</form>
+
+More secure, but still can be read.
+
+To secure completely, HTTPS is used
