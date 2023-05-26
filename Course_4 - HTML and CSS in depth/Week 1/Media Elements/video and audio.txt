@@ -1,0 +1,9 @@
+<video> width height control>
+    <source> src="dance.mp4" type="video/mp4"
+    <source> src="dance.ogg" type="video/ogg"
+</video>
+
+<audio> controls>
+    <source> src="music.mp3" type="audio/mpeg"
+</audio>
+
