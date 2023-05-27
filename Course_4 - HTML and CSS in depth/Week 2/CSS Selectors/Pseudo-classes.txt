@@ -1,0 +1,34 @@
+State-based selectors======================================
+allow you to select elements based on their State
+
+used for enhancing user interactivity
+
+Hover
+In focus
+Visited Link
+Specific Elements - 5th item in a list, bold items, empty items
+
+Pseudo-class syntax
+selector: pseudo-class{
+    css code
+}
+
+User action states: :hover(mouse hovers over), :active(while user actively holds the mouse on it), :focus
+
+CHECK THE FOLDER FOR VISUAL REPRESENTATION
+
+Form states:===============================================
+
+:disabled and :enabled
+
+:checked and :indeterminate
+
+:Valid and :invalid
+
+Specific position-based states:=============================
+:first-of-type
+:last-of-type
+:nth-of-type()
+:nth-last-of-type()
+
+

@@ -1,0 +1,51 @@
+Attribute selectors:====================================================
+a[class]{
+    color:darkgreen
+}
+
+turns everything with a class to green
+
+a[href*="meta"]{
+    color:darkgreen;
+}
+targets ALL  everything that has a href with common value meta to green
+
+a[href="link.com"]{
+    color:darkgreen
+}
+targets a specific href with the specific link
+
+Nth-of-type and nth-type===============================================
+
+syntax of nth-child
+element:nth-child(n){
+    property: value;
+}
+
+syntax of nth-type
+element:nth-of-type(n){
+    property: value;
+}
+
+If we have let's say an unordered list of 3 elements and write the following:
+either
+li: nth-of-type(2){
+    color:aqua;
+}
+li:nth-child(2){
+    color:aqua;
+}
+
+the second item will be aqua color
+
+Star selector =================================================================
+selects everything
+
+* {
+    color:blue;
+}
+
+Group selector =========================
+h1,p {
+    css properties
+}

@@ -1,0 +1,19 @@
+Transform SYNTAX: Modifies the spatial location of an element (scale and angle, they are instantaneous)
+element {
+    transform:value
+}
+
+Transition SYNTAX { (controls the speed of which the transformation occurs)
+    transition: value
+}
+
+e.g.
+
+h1 {
+    transform: rotate(0deg)
+    transition: transform 2s;
+}
+
+h1:hover {
+    transform: rotate(20deg);
+}

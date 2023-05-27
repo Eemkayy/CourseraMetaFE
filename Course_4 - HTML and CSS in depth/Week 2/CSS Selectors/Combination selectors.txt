@@ -1,0 +1,27 @@
+Descendent selectors: used for elements contained within another selector
+
+#blog h1{
+    color:blue;
+}
+h1 elements are all descendents within blog
+
+Child selectors:
+#blog >h1 {
+    color:blue;
+}
+Only the children INSIDE the blog will get it, if there are other h1 but they're not direct, they wont
+
+General sibling selectors:
+
+h1 ~ p {
+    color:blue;
+}
+
+tagets all paragraphs that are siblings of the h1 element.
+
+Adjacent sibling selectors:
+Selects a person and then selects the first adjacent sibling to it
+
+div+p {
+    color:blue;
+}
