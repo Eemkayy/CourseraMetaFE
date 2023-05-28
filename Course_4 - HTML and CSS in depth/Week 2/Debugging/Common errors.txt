@@ -1,0 +1,18 @@
+Skill based errors: typos, basically simple mistakes
+    - ommiting dlimiters
+    - forgetting quotations
+    - forgot brackets
+    - Syntax errors or Doctype
+    Bad practice: uppercase inline
+Rule-based errors:
+    - Starting a class w a numeric value
+    - Complicated code => complex queries with multiple attributes for selector code
+Knowledge-based errors: 
+
+
+
+
+Best practices:
+    - using shorthand, saves time (instead of writing 4 atr, write 1 with the 4)
+    - Specifity, avoids errors (overspecifity can make browsers take more time than usual)
+    - overspecifity(waste browsers time, wastes your time)
