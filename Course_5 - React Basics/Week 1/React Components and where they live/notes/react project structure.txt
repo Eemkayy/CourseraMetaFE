@@ -1,0 +1,25 @@
+node_modules:
+Repository for all the modules in the react app
+Needed
+
+
+public folder:
+Assets that will be displayed to the user in the app.
+react app gets injected into the index.html.
+
+
+src:
+contains everything necessary for the app to work.
+App.css: styles for App.js
+same with index.css but for index.js
+app.test, reprotwebvitals, setuptests and logo can be removed - they are extra items used for testing/debugging
+
+
+
+.gitignore used for version control, file not specific for react
+
+Readme - basic info for project
+
+package.json - info pertaining on my app
+
+package-lock.json 0 holds all dependencies with specific version (if we delete module by accident)

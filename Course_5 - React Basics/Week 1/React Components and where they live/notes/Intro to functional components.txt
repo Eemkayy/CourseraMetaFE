@@ -1,0 +1,24 @@
+Functional components:===================================
+
+function Welcome(){
+    return <h1>"Hello"</h1>
+};
+
+Must be used as a JSX element
+
+(JS function must be called)
+
+
+Class components:===============================
+class Welcome extends React.Component{
+    render(){
+        return <h1>"Hello"</h1>
+    };
+};
+
+
+ALL COMPONENT NAMES IN REACT MUST BE CAPITALIZED
+
+Transpiling: interpreting a programming language and translating it to a specific target language
+
+
