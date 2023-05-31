@@ -1,0 +1,46 @@
+JS function:
+
+function addNumebrs(num1,num2){
+    console.log(num1*num2)
+}
+
+addNumbers(10,10)
+
+
+
+Props:
+export function App(props){
+    return (
+        <h1>{props.title}</h1>
+    )
+}
+
+Before props, JS objects:
+Variable that can contain many values
+Groups related data of diff types
+contains object properties
+
+e.g.
+const fruit= {type:, quantitiy:, color:}
+
+fruit.type
+
+
+Props:
+pass dta between components
+arguments are passed like HTML atr
+Uses the keyword props
+
+React props:
+send multiple data types
+Flexible dynamic content
+
+Pure functions:
+always returns the same output for the same argument values
+
+
+React.createElement(
+  type,
+  [props],
+  [...children]
+)
